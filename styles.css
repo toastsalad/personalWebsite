@@ -14,35 +14,36 @@ h1 {
     text-align: center;
 }
 
-p{
+p {
     margin: auto;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 .contact-info {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 .main-content {
+    max-width: 80rem;
     display: flex;
     flex-direction: row;
-    margin: 20px;
+    margin: 3rem; 
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     background-color: rgba(255, 255, 255, 0.9);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
 
 .container {
     flex: 3;
-    padding: 40px;
+    padding: 4rem;
 }
 
 a {
-    color: #007bff;
-    text-decoration: none;
+    color: #000000;
+    text-decoration: underline;
 }
 
 a:hover {
@@ -52,21 +53,21 @@ a:hover {
 
 .section {
     text-align: left;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 .section h2 {
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
+    border-bottom: 0.1875rem solid #ffa601c2; 
+    padding-bottom: 0.3125rem; 
+    margin-bottom: 0.625rem; 
 }
 
-.section ul{
-    margin-bottom: 40px;
+.section ul {
+    margin-bottom: 2.5rem;
 }
 
-.section li{
-    margin-bottom: 10px;
+.section li {
+    margin-bottom: 0.625rem; 
 }
 
 .company-name {
@@ -75,17 +76,17 @@ a:hover {
 
 .sidebar {
     flex: 1;
-    padding: 40px;
-    border-radius: 8px;
+    padding: 2.5rem;
+    border-radius: 0.5rem;
     background-color: rgba(255, 255, 255, 1);
-    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    box-shadow: -0.125rem 0 0.3125rem rgba(0, 0, 0, 0.1);
     border-left: 1px solid #ddd;
 }
 
 .sidebar h2 {
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
+    border-bottom: 0.1875rem solid #ffa601c2;
+    padding-bottom: 0.3125rem;
+    margin-bottom: 0.625rem;
 }
 
 .sidebar ul {
@@ -94,7 +95,7 @@ a:hover {
 }
 
 .sidebar li {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 .company-name {
@@ -106,23 +107,23 @@ a:hover {
 @media (max-width: 1200px) {
     .main-content {
         flex-direction: column;
-        margin:10px;
-        background-color:white;
+        margin: 0.625rem;
+        background-color: white;
     }
 
-    .container{
-        padding: 30px;
-        padding-bottom: 0px;        
+    .container {
+        padding: 1.875rem;
+        padding-bottom: 0;        
     }
 
     .section {
         text-align: left;
-        margin-bottom: 10px;
+        margin-bottom: 0.625rem;
     }
 
     .sidebar {
         box-shadow: none;
-        padding: 30px;
-        padding-top:0;
+        padding: 1.875rem;
+        padding-top: 0;
     }
 }
