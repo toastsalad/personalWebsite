@@ -1,42 +1,43 @@
-html
-{
-    height:100%
+html {
+    background-color: #424242;
 }
 
-body {    
+body {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
-    background: linear-gradient(-45deg, #ee7752, #be1717, #23cfd5, #23d5ab);
-    background-size: 500% 500%;
-    animation: gradient 15s ease infinite;    
+    margin: 0;
 }
 
-h1{
-    padding: 0px;
+h1 {
+    margin: 0;
     text-align: center;
 }
 
-.contact-info{
+p{
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.contact-info {
     text-align: center;
+    margin-top: 10px;
 }
 
 .main-content {
     display: flex;
     flex-direction: row;
-    max-width: 1200px;
     margin: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
-    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+    background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
 
 .container {
     flex: 3;
-    padding: 40px;    
-    padding-top: 0px;
+    padding: 40px;
 }
 
 a {
@@ -45,11 +46,13 @@ a {
 }
 
 a:hover {
-    text-decoration: wavy underline;;
+    text-decoration: wavy underline;
+    color: #002f61;
 }
 
 .section {
     text-align: left;
+    margin-bottom: 10px;
 }
 
 .section h2 {
@@ -58,12 +61,23 @@ a:hover {
     margin-bottom: 10px;
 }
 
+.section ul{
+    margin-bottom: 40px;
+}
+
+.section li{
+    margin-bottom: 10px;
+}
+
+.company-name {
+    font-weight: bold;
+}
+
 .sidebar {
     flex: 1;
     padding: 40px;
-    padding-top: 0px;
     border-radius: 8px;
-    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+    background-color: rgba(255, 255, 255, 1);
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
     border-left: 1px solid #ddd;
 }
@@ -83,20 +97,22 @@ a:hover {
     margin-bottom: 10px;
 }
 
+.company-name {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #333;
+}
+
 @media (max-width: 1200px) {
     .main-content {
         flex-direction: column;
     }
-}
 
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
+    .container{
+        padding-bottom: 0px;
     }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
+
+    .sidebar {
+        box-shadow: none;
     }
 }
