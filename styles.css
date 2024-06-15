@@ -106,13 +106,22 @@ a:hover {
 @media (max-width: 1200px) {
     .main-content {
         flex-direction: column;
+        margin:10px;
+        background-color:white;
     }
 
     .container{
-        padding-bottom: 0px;
+        padding: 30px;
+        padding-bottom: 0px;        
+    }
+
+    .section {
+        margin-bottom: 0px;
     }
 
     .sidebar {
         box-shadow: none;
+        padding: 30px;
+        padding-top:0;
     }
 }
