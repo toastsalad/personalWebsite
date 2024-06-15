@@ -116,7 +116,8 @@ a:hover {
     }
 
     .section {
-        margin-bottom: 0px;
+        text-align: left;
+        margin-bottom: 10px;
     }
 
     .sidebar {
