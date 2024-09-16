@@ -57,7 +57,7 @@ a:hover {
 }
 
 .section h2 {
-    border-bottom: 0.1875rem solid #ffa601c2; 
+    border-bottom: 0.1875rem solid #424242; 
     padding-bottom: 0.3125rem; 
     margin-bottom: 0.625rem; 
 }
@@ -84,7 +84,7 @@ a:hover {
 }
 
 .sidebar h2 {
-    border-bottom: 0.1875rem solid #ffa601c2;
+    border-bottom: 0.1875rem solid #424242;
     padding-bottom: 0.3125rem;
     margin-bottom: 0.625rem;
 }
